@@ -1,5 +1,6 @@
 ### IntelliJ IDEA ###
-.idea/workspace.xml
+.idea/
+Main.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
