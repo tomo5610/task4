@@ -33,7 +33,7 @@ public class Main {
         System.out.println("\"s\" の個数は" + count);
 
 
-        System.out.println("リストに\"ichiro\"が存在するか");
+        System.out.println("リストに\"ichiro\"が存在すればtrue");
         boolean hasIchiro = employees1.stream()
                 .anyMatch(name -> name.equals("ichiro"));
         System.out.println(hasIchiro);
